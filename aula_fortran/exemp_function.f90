@@ -1,21 +1,20 @@
-Real function expcos(x)
-implicit none
-Real, intent(in):: x
-
-expcos = exp(-x**2)*cos(10*x)
-
-end function expcos
+!!! Posso colocar a função aqui e não esquecer de declará-la no programa 
 
 program teste
     Real:: expcos
     real:: x, y
 
-    write(*,*) 'X:'
-    read(*,*) X
+    write(*,*) 'Escreva o valor de X:'
+    read(*,*) x
 
     y = expcos(x)
 
     write(*,*) 'Valor da função:', y
+
+    contains
+    !!! Posso colocar a função que eu quiser aqui e 
+    !!! não preciso declara a função no programa, nesta ocasião
+    !!!
 
 end program
 
