@@ -1,0 +1,7 @@
+Nesse exemplo, a função distance recebe quatro argumentos: 
+as coordenadas x e y dos dois pontos que desejamos calcular a distância. 
+A função calcula a distância usando a fórmula sqrt((x2 - x1)**2 + (y2 - y1)**2) 
+e retorna o resultado. A função triangle_area recebe três argumentos: as medidas dos três lados do triângulo. 
+A função primeiro verifica se as medidas dos lados formam um triângulo válido (usando a
+desigualdade triangular) e retorna um valor negativo se não for o caso. Se as medidas dos lados formarem 
+um triângulo válido, a função usa a fórmula de Heron para calcular a área e retorna o resultado.
