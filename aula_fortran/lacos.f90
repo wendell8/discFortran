@@ -1,7 +1,7 @@
 program media
     implicit none
     real:: soma, x,md
-    integer:: i, n
+    integer:: i, n ! para o do deve-se usar variaves do tipo inteira
 
     soma = 0. ! devo coloacar o . para garantir que o zero seja 0 mesmo, e não receba valores remanescentes
     ! soma foi atribuido à zero para que 
