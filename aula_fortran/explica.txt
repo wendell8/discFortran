@@ -5,3 +5,13 @@ e retorna o resultado. A função triangle_area recebe três argumentos: as medi
 A função primeiro verifica se as medidas dos lados formam um triângulo válido (usando a
 desigualdade triangular) e retorna um valor negativo se não for o caso. Se as medidas dos lados formarem 
 um triângulo válido, a função usa a fórmula de Heron para calcular a área e retorna o resultado.
+#######################
+    Usando looping e If
+#######################
+o programa solicita um valor de x e verifica se x é igual a zero. Se x for igual a zero, 
+o programa escreve uma mensagem 
+pedindo ao usuário para inserir um valor diferente. Se x for diferente de zero, 
+o programa calcula a função f(x) e imprime 
+o resultado na tela. No final, o loop é interrompido com o comando "exit". 
+Se o usuário inserir um valor de x igual a zero, 
+o programa solicitará um novo valor de x e repetirá o processo até que o usuário insira um valor diferente de zero.
