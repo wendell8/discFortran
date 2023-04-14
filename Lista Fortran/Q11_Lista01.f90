@@ -10,6 +10,7 @@
 !##### Informação da Disciplina ########################
 
 ! Exercícios de Fortran - Lista 01
+! Questão 11 
 
 Program Dice
 Implicit None
